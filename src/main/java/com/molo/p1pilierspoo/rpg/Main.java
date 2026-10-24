@@ -1,7 +1,7 @@
-package com.molo.p1bases.rpg;
+package com.molo.p1pilierspoo.rpg;
 
-import com.molo.p1bases.rpg.equipements.*;
-import com.molo.p1bases.rpg.personnages.*;
+import com.molo.p1pilierspoo.rpg.equipements.*;
+import com.molo.p1pilierspoo.rpg.personnages.*;
 
 import java.util.List;
 

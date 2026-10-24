@@ -1,4 +1,4 @@
-package com.molo.p1bases.rpg.equipements;
+package com.molo.p1pilierspoo.rpg.equipements;
 
 public class BatonMagique implements Arme {
 

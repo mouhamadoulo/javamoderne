@@ -1,6 +1,6 @@
-package com.molo.p1bases.rpg.personnages;
+package com.molo.p1pilierspoo.rpg.personnages;
 
-import com.molo.p1bases.rpg.equipements.Arme;
+import com.molo.p1pilierspoo.rpg.equipements.Arme;
 
 public class Mage extends Personnage {
 
