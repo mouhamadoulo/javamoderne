@@ -12,7 +12,8 @@ import java.util.Optional;
  * - flatMap() : transforme sans imbriquer un autre Optional.
  * - orElse() et orElseGet() : fournissent une valeur de remplacement.
  *
- * En pratique, Optional est particulièrement utile pour exprimer un résultat potentiellement absent, notamment dans les valeurs de retour.
+ * En pratique, Optional est particulièrement utile pour exprimer un résultat potentiellement absent,
+ * notamment dans les valeurs de retour.
  */
 public class OptionalExamples {
 
