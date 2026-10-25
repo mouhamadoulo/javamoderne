@@ -1,5 +1,6 @@
 package com.molo.p3collections;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,6 +22,19 @@ import java.util.stream.Collectors;
 public class DemoStreams {
     public static void main(String[] args) {
         List<Integer> notes = List.of(12, 8, 17, 15, 9, 17);
+
+        List<String> prenoms = new ArrayList<>();
+        prenoms.add("Moustapha");
+        prenoms.add("Amadou");
+        prenoms.add("Jean");
+        prenoms.add("Adama");
+        prenoms.add("Annie");
+
+        prenoms.stream()
+                .filter(p -> p.startsWith("A"))
+                .map(String::toUpperCase)
+                .sorted()
+                .forEach(System.out::println);
 
         // Filtrer, trier et collecter
         List<Integer> reussites = notes.stream()
