@@ -59,6 +59,8 @@ public class MainExceptions {
             compte.retirer(-10);
         } catch (IllegalArgumentException e) {
             System.out.println("Montant invalide : " + e.getMessage());
+        } catch (SoldeInsuffisantException e) {
+            System.out.println("Solde insuffisant : "+ e.getMessage());
         }
 
         // 6. try-with-resources : fermeture automatique
