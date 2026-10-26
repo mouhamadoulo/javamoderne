@@ -43,6 +43,7 @@ public class DemoStreams {
                 .sorted()
                 .toList();
 
+
         System.out.println(reussites); // [12, 15, 17]
 
         // Transformer
